@@ -12,6 +12,7 @@ import {
 } from "@phosphor-icons/react";
 
 export default function MusicPlayerControl() {
+  const { isSpatial } = useIsSpatial();
   return (
     <div
       style={{
@@ -21,7 +22,7 @@ export default function MusicPlayerControl() {
         gap: 24,
         padding: "12px 24px",
         borderRadius: 9999,
-        transform: `translateZ(90px)`,
+        transform: `translateZ(90px)${isSpatial ? " rotateX(15deg)" : ""}`,
         ...MatteGlass(),
       }}
     >
