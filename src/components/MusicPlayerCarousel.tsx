@@ -106,8 +106,9 @@ function MusicPlayerCarouselContent() {
               cursor: "pointer",
               position: "absolute",
               top: 0,
-              // Use left: "50%", once the translateX(-50%) is fixed by WebSpatial
-              left: "37.7%",
+              left: "0",
+              right: "0",
+              margin: "0 auto",
               transformStyle: "preserve-3d",
               transform: isSpatial
                 ? `translateZ(${spatialLayout.translateZ}px) rotateY(${spatialLayout.rotateY}deg) scale(${spatialLayout.scale})`
