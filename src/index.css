@@ -21,4 +21,5 @@ body {
 html.is-spatial {
   background-color: transparent;
   --xr-background-material: transparent;
+  overflow: hidden;
 }

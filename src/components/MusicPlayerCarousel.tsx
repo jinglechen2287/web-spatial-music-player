@@ -38,11 +38,12 @@ function MusicPlayerCarouselContent() {
   });
 
   function calcSpatialLayout(offset: number) {
+    const offsetAbs = Math.abs(offset);
     return {
       translateX: offset * 180,
-      translateZ: -Math.abs(offset) * 5,
-      rotateY: -offset * 20,
-      scale: 1 - Math.abs(offset) * (isSpatial ? 0.05 : 0.1),
+      translateZ: -offsetAbs * 10,
+      rotateY: offset === 0 ? 0 : (-20 * offset) / offsetAbs,
+      scale: 1 - offsetAbs * (isSpatial ? 0.05 : 0.1),
     };
   }
 
@@ -116,7 +117,7 @@ function MusicPlayerCarouselContent() {
               transition: isSpatial
                 ? "opacity 200ms ease-out"
                 : "transform 750ms ease, box-shadow 750ms ease, opacity 200ms ease-out",
-              zIndex: 100 - Math.abs(offset * 5),
+              zIndex: 100 - Math.abs(offset),
               opacity: isHidden ? 0 : 1,
               pointerEvents: isHidden ? "none" : "auto",
               ...MatteGlass(),

@@ -10,7 +10,7 @@
 				<string>arm64</string>
 			</array>
 			<key>buildNumber</key>
-			<string>1.0</string>
+			<string>0.0.1</string>
 			<key>certificate</key>
 			<dict>
 				<key>SHA1</key>
@@ -24,6 +24,8 @@
 			<dict>
 				<key>application-identifier</key>
 				<string>9YAZJ64SB5.JingleChen.LofiJingle</string>
+				<key>beta-reports-active</key>
+				<true/>
 				<key>com.apple.developer.team-identifier</key>
 				<string>9YAZJ64SB5</string>
 				<key>get-task-allow</key>
@@ -34,12 +36,14 @@
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>e4783cdb-86ce-410f-b29c-41a3e2bf70ed</string>
+				<string>68a46caa-d92a-47d1-af09-8e1ba52d892c</string>
 				<key>dateExpires</key>
 				<string>9/29/26</string>
 				<key>name</key>
-				<string>iOS Team Ad Hoc Provisioning Profile: JingleChen.LofiJingle</string>
+				<string>iOS Team Store Provisioning Profile: JingleChen.LofiJingle</string>
 			</dict>
+			<key>symbols</key>
+			<true/>
 			<key>team</key>
 			<dict>
 				<key>id</key>
