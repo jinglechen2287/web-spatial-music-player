@@ -10,7 +10,7 @@ This repo demonstrate the possibility of using [WebSpatial](https://webspatial.d
 
 [Demo Video](https://youtu.be/MoEajnh3-uk)
 
-[Vision Pro App TestFlight](https://testflight.apple.com/join/MeMbUqcC)
+[Vision Pro App](https://apps.apple.com/us/app/lofi-jingle/id6753150302)
 ![Vision Pro App Screenshot](./docs/AVP%20View.webp)  
 
 [Web App](https://lofi-jingle.vercel.app/)
@@ -136,8 +136,8 @@ npm run publish:avp
 
 - ✅ [WebSpatial Starter](https://github.com/jinglechen2287/webspatial-starter)
 - ✅ [Build and Publish to VisionOS](https://gist.github.com/dexteryy/9dce5f5b129115f85172f5174f22173d)
-- 🔘 Create a WebSpatial Project (Coming Soon)
-- 🔘 Setup dotenv & npm scripts (Coming Soon)
+- ✅ [Create a WebSpatial Project](https://youtu.be/WgI8cOsYj8w)
+- ✅ [Setup dotenv & npm scripts](https://youtu.be/LqlHxULEEgc)
 - 🔘 More...
 
 ---
